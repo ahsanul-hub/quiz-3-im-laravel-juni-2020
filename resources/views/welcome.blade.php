@@ -56,6 +56,7 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                padding-bottom: 40px;
             }
 
             .m-b-md {
@@ -81,18 +82,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Sanbercode
+                <h3>SanberCode</h3>
+                    <img src="{{ asset('images/portalblog.png') }}" class="img-rounded w-100">
+                    
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ url('/article')}}">Artikel</a>
                 </div>
             </div>
         </div>
